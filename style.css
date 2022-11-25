@@ -1,0 +1,198 @@
+.start{
+    background-color: rgb(167, 203, 235);
+    width: 100%;
+    height: 300px;
+}
+
+.title {
+    font-size: 2rem;
+    margin-left: -800px;
+    padding-top: 30px;
+  }
+
+ .title_2{
+    font-size: 2rem;
+    width: 100%;
+    margin-left: -500px;
+}
+
+.title_3{
+    margin-left: -750px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+  .subtitle {
+    font-weight: 600;
+    color: rgb(78, 117, 157);
+  }
+
+  .subtitle_1{
+    font-weight: 600;
+    color: rgb(17, 58, 103);
+  }
+
+  .daryll_cover{
+    background-color: rgb(29, 25, 25);
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    left: 17%;
+    border-radius: 50%;
+    position: absolute;
+    transform: scale(100%);
+    transition: transform 400ms;
+    z-index: 1;
+  }
+
+  .daryll_cover2{
+    background-color: rgb(29, 25, 25);
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    left: 27%;
+    border-radius: 50%;
+    position: absolute;
+    transform: scale(100%);
+    transition: transform 400ms;
+    z-index: 1;
+  }
+
+  .daryll_cover3{
+    background-color: rgb(29, 25, 25);
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    left: 37%;
+    border-radius: 50%;
+    position: absolute;
+    transform: scale(100%);
+    transition: transform 400ms;
+    z-index: 1;
+  }
+
+  ion-icon {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-left: 19px;
+    color: white;
+    }
+
+    .ion-icon .logo-linkedin{
+        text-align: center;
+        font-size: 0px;
+        padding-top: 20px;
+        padding-left: 19px;
+        color: white;
+        }
+
+.bio{
+    background-image: url(IMG_1.JPG);
+    width: 70%;
+    margin-left: 35%;
+    height: 500px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: -370px;
+  }
+
+.about_me{
+    background: linear-gradient(0deg, rgba(112,145,180,1) 0%, rgba(183,205,227,1) 100%);
+    width: 100%;
+    padding-top: 500px;
+    height: 100px;
+  }
+
+.picture{
+    background-image: url(IMG_2.jpg);
+    height: 300px;
+    width: 305px;
+    margin-top: -500px;
+    background-size:contain;
+}
+
+.list{
+    margin-top: 20px;
+}
+
+.list p{
+    color: white;
+    font-size: 30px;
+    width: 200px;
+    transform: scale(100%);
+    transition: transform 400ms;
+    position: absolute;
+    text-align: center;
+    margin-left: -190px;
+}
+
+.bracket{
+    text-align: center;
+    background-color: black;
+    width: 305px;
+    height: 600px;
+    margin-top: -160px;
+    position: relative;
+}
+
+.words{
+    text-align: center;
+    width: 80%;
+    height: 200px;
+    padding-left: 200px;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    padding-left: 250px;
+    margin-top: -550px;
+    color: white;
+
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    word-spacing: 5px;
+    padding-left: 250px;
+}
+
+.list_of_education{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 190px;
+}
+
+.list_of_work{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 190px;
+}
+
+.daryll_cover:hover {
+    transform:scale(120%);
+    cursor: pointer;
+}
+
+.daryll_cover2:hover {
+    transform:scale(120%);
+    cursor: pointer;
+}
+
+.daryll_cover3:hover {
+    transform:scale(120%);
+    cursor: pointer;
+}
+
+.list p:hover{
+    transform: scale(110%);
+    cursor: pointer;
+    color: aqua;
+}
+
+footer{
+    margin-left: -180px;
+}
